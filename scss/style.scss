@@ -1,3 +1,10 @@
+@import "if";
+@import "bucle";
+@import "each";
+@import "map";
+@import "extend";
+@import "mixin";
+
 // VARIABLES
 // antes era una declaración y una definición :root{--nombreVariable:valor;}
 // $declaracionVariable:valor;
@@ -48,4 +55,7 @@ header{
             }
         }
     }
+}
+@media only screen and (max-width:768px){
+    h1{font-size:3rem;}
 }
