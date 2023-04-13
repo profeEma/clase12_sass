@@ -11,7 +11,7 @@
 $mapaFuentes:(
     principal:'tahoma',
     secundaria:'lato',
-    tericiaria: 'times new roman'
+    terciaria: 'times new roman'
 );
 
 @each $fuente, $familiaFuente in $mapaFuentes{
